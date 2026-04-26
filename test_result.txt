@@ -1,0 +1,77 @@
+============================================================
+
+[taste]
+              precision    recall  f1-score   support
+
+       spicy       0.50      0.10      0.17        10
+        rich       0.00      0.00      0.00         2
+       sweet       1.00      0.20      0.33         5
+       salty       0.30      0.83      0.44        12
+      unique       0.33      0.20      0.25         5
+     complex       0.60      0.96      0.74        27
+     no data       0.25      0.57      0.35         7
+
+   micro avg       0.44      0.63      0.52        68
+   macro avg       0.43      0.41      0.33        68
+weighted avg       0.49      0.63      0.48        68
+ samples avg       0.46      0.62      0.50        68
+
+
+[material]
+              precision    recall  f1-score   support
+
+        beef       0.63      0.85      0.72        26
+        pork       0.00      0.00      0.00         0
+     chicken       0.71      0.50      0.59        20
+        etc.       0.00      0.00      0.00         3
+
+    accuracy                           0.65        49
+   macro avg       0.34      0.34      0.33        49
+weighted avg       0.63      0.65      0.62        49
+
+
+[feature]
+                 precision    recall  f1-score   support
+
+ meaty/maillard       0.00      0.00      0.00         2
+   gooey cheese       0.67      0.40      0.50        10
+      flavorful       0.75      0.20      0.32        15
+ signature item       0.43      0.95      0.59        19
+   no vegetable       0.00      0.00      0.00         1
+balanced flavor       0.44      0.83      0.58        18
+     no feature       0.48      0.71      0.57        14
+
+      micro avg       0.45      0.63      0.53        79
+      macro avg       0.39      0.44      0.36        79
+   weighted avg       0.51      0.63      0.50        79
+    samples avg       0.44      0.64      0.50        79
+
+
+[price]
+               precision    recall  f1-score   support
+
+    expensive       0.62      0.89      0.73         9
+   affordable       0.00      0.00      0.00         0
+        cheap       0.00      0.00      0.00         5
+no price data       0.89      0.91      0.90        35
+
+     accuracy                           0.82        49
+    macro avg       0.38      0.45      0.41        49
+ weighted avg       0.75      0.82      0.78        49
+
+
+[revisit]
+                       precision    recall  f1-score   support
+
+   willing to revisit       0.52      0.68      0.59        19
+  conditional revisit       0.67      0.15      0.25        13
+        worthy to try       0.00      0.00      0.00         3
+no willing to revisit       0.59      0.71      0.65        14
+
+             accuracy                           0.51        49
+            macro avg       0.44      0.39      0.37        49
+         weighted avg       0.55      0.51      0.48        49
+
+
+전체 Macro F1: 0.3457
+전체 Micro F1: 0.5225
